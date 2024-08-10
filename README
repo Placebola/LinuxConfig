@@ -1,0 +1,49 @@
+Optional packages:
+- gotop
+- bat
+- pass (gpg + ssh)
+
+fish dependencies :
+- fzf
+- zoxide
+
+rofi drun dependencies :
+- font nerd (emojis)
+
+neofetch dependencies :
+- onefetch (git)
+
+Dev packages :
+- rustup
+- npm (with recent node)
+- create-react-app
+
+
+Themes :
+- App (Gruvbox-Dark-BL-LB)
+- Icons (Gruvbox-Plus-Dark)
+- Desktop (Gruvbox-Dark-BL-MB)
+
+Funcs :
+- Remove bottom bar
+- Disable display of apps on Desktop
+- Do shortcuts :
+    - Launch terminal = Ctrl+Return
+    - Open Rofi drun = Super L
+    - Open Rofi ssh = Shift+Super L
+    - Open ranger home = Super+E
+    - Open ranger / = Shift+Super+E
+
+Important Apps :
+- VLC
+- ncspot
+- qBittorrent (search bar + torrents list)
+- Brave
+
+Remove bloatware :
+- celluloid
+- hexchat
+
+For history and files seach with fzf and fish :
+- Replace /usr/share/fish/vendor_functions.d/fzf_key_bindings.fish par le bon contenu
+- Remplacer en root et user le .config/fish/functions/fish_user_key_bindings.fish par "fzf_key_bindings"
