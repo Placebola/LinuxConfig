@@ -3,6 +3,7 @@ Optional packages:
 - bat
 - pass (gpg + ssh)
 
+
 fish dependencies :
 - fzf
 - zoxide
